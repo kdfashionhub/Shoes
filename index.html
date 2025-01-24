@@ -1,0 +1,139 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   KD Clothing &amp; Shoes
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16">
+     <div class="flex">
+      <div class="flex-shrink-0 flex items-center">
+       <img alt="Logo" class="h-8 w-8" height="40" src="https://storage.googleapis.com/a1aa/image/nlmTeeak8aswMkcNZBULNzH70mgPuwu4Y01YEe4zBuWpRcQoA.jpg" width="40"/>
+       <span class="ml-2 text-xl font-semibold">
+        KD Clothing &amp; Shoes
+       </span>
+      </div>
+     </div>
+     <div class="flex items-center">
+      <div class="relative">
+       <button class="text-gray-500 hover:text-gray-700 focus:outline-none focus:text-gray-700">
+        <i class="fas fa-bars">
+        </i>
+       </button>
+       <div class="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg hidden group-hover:block">
+        <a class="block px-4 py-2 text-gray-800 hover:bg-gray-200" href="#">
+         Home
+        </a>
+        <a class="block px-4 py-2 text-gray-800 hover:bg-gray-200" href="#">
+         Shop
+        </a>
+        <a class="block px-4 py-2 text-gray-800 hover:bg-gray-200" href="#">
+         About
+        </a>
+        <a class="block px-4 py-2 text-gray-800 hover:bg-gray-200" href="#">
+         Contact Us
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </nav>
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+   <h1 class="text-2xl font-semibold text-gray-900 mb-6">
+    Men's Shoes
+   </h1>
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <!-- Product Card -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+     <img alt="Men's Running Shoes" class="w-full h-48 object-cover" height="300" src="https://placehold.co/300x200?text=Men's+Running+Shoes" width="200"/>
+     <div class="p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+       Men's Running Shoes
+      </h2>
+      <p class="text-gray-600">
+       $69.99
+      </p>
+      <button class="mt-2 bg-gray-800 text-white px-4 py-2 rounded">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+     <img alt="Men's Casual Shoes" class="w-full h-48 object-cover" height="300" src="https://placehold.co/300x200?text=Men's+Casual+Shoes" width="200"/>
+     <div class="p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+       Men's Casual Shoes
+      </h2>
+      <p class="text-gray-600">
+       $59.99
+      </p>
+      <button class="mt-2 bg-gray-800 text-white px-4 py-2 rounded">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+     <img alt="Men's Formal Shoes" class="w-full h-48 object-cover" height="300" src="https://placehold.co/300x200?text=Men's+Formal+Shoes" width="200"/>
+     <div class="p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+       Men's Formal Shoes
+      </h2>
+      <p class="text-gray-600">
+       $89.99
+      </p>
+      <button class="mt-2 bg-gray-800 text-white px-4 py-2 rounded">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+     <img alt="Men's Sneakers" class="w-full h-48 object-cover" height="300" src="https://placehold.co/300x200?text=Men's+Sneakers" width="200"/>
+     <div class="p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+       Men's Sneakers
+      </h2>
+      <p class="text-gray-600">
+       $79.99
+      </p>
+      <button class="mt-2 bg-gray-800 text-white px-4 py-2 rounded">
+       Buy Now
+      </button>
+     </div>
+    </div>
+   </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-lg font-semibold">
+     Clothing &amp; Shoes
+    </h2>
+    <p class="text-gray-400">
+     Your one-stop shop for the latest in fashion and footwear.
+    </p>
+    <p class="text-gray-400 mt-4">
+     © 2023 KD Clothing &amp; Shoes. All rights reserved.
+    </p>
+   </div>
+  </footer>
+  <script>
+   document.querySelector('button').addEventListener('click', function() {
+     const menu = this.nextElementSibling;
+     menu.classList.toggle('hidden');
+   });
+  </script>
+ </body>
+</html>
